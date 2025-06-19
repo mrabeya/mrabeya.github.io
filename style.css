@@ -1,22 +1,63 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2821
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+/* Import the Inter font from Google Fonts for a modern look */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-\f0\fs24 \cf0 body \{\
-    font-family: Arial, sans-serif;\
-    text-align: center;\
-    background-color: #f4f4f4;\
-    color: #333;\
-    padding: 20px;\
-\}\
-\
-header \{\
-    background: #007bff;\
-    color: white;\
-    padding: 20px;\
-    border-radius: 10px;\
-\}\
+/* Basic styling for the body to create a pleasant background and center content */
+body {
+    font-family: 'Inter', sans-serif; /* Apply the Inter font */
+    line-height: 1.6; /* Improve readability of text */
+    margin: 0; /* Remove default body margin */
+    padding: 20px; /* Add some padding around the content */
+    background-color: #f0f2f5; /* Light grey background for a soft look */
+    color: #333; /* Dark grey text for readability */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+/* Styling for the header section */
+header {
+    background: #ffffff; /* White background for the header card */
+    padding: 40px; /* Generous padding inside the header */
+    border-radius: 12px; /* Slightly more rounded corners for a modern feel */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 700px; /* Max width for better readability on large screens */
+    width: 100%; /* Ensure it takes full width on smaller screens */
+    text-align: center; /* Center text within the header */
+}
+
+/* Styling for the main heading */
+h1 {
+    font-size: 2.8em; /* Larger, more impactful heading */
+    color: #2c3e50; /* Darker blue-grey for emphasis */
+    margin-bottom: 0.5em; /* Space below the heading */
+    font-weight: 700; /* Bold font weight */
+}
+
+/* Styling for the paragraph text in the header */
+p {
+    font-size: 1.2em; /* Slightly larger paragraph text */
+    color: #555; /* Medium grey for good contrast */
+    margin-bottom: 0; /* Remove default bottom margin */
+    font-weight: 400; /* Regular font weight */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    body {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    header {
+        padding: 25px; /* Reduce header padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Adjust heading size for mobile */
+    }
+
+    p {
+        font-size: 1em; /* Adjust paragraph size for mobile */
+    }
 }
