@@ -3,18 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <!-- Link to your custom stylesheet -->
+    <title>Your Name - GitHub Profile</title>
+    <!-- Link to your custom stylesheet (style.css) -->
     <link rel="stylesheet" href="style.css">
-    <!-- Tailwind CSS CDN for quick setup and modern styling -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Font: Inter -->
+    <!-- Google Font: Inter (already imported in style.css, but good practice to link here too if not in CSS) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="font-inter bg-gray-100 min-h-screen flex items-center justify-center p-4">
-    <header class="text-center bg-white p-8 md:p-12 rounded-xl shadow-lg max-w-xl w-full">
-        <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Welcome to My Website</h1>
-        <p class="text-lg md:text-xl text-gray-600">This is a simple webpage hosted on GitHub Pages, designed with a modern touch.</p>
-    </header>
+<body>
+    <div class="container">
+        <!-- Profile Image Section -->
+        <img src="https://placehold.co/150x150/007bff/ffffff?text=Your+Photo" alt="Your Profile Picture" class="profile-img">
+
+        <!-- Name and Title -->
+        <h1>Your Name</h1>
+        <p>Passionate Developer & Lifelong Learner</p>
+    </div>
+
+    <div class="container">
+        <!-- Bio Section -->
+        <h2>About Me</h2>
+        <p>Hello! I'm [Your Name], a dedicated software developer with a keen interest in [mention your primary area of interest, e.g., web development, data science, AI]. I enjoy transforming complex problems into elegant solutions and constantly learning new technologies.</p>
+        <p>My journey in programming began with [mention something that sparked your interest, e.g., a simple game, a coding course], and since then, I've been captivated by the endless possibilities that coding offers. I'm proficient in [list a few key programming languages/technologies, e.g., Python, JavaScript, React, Node.js] and always eager to explore new challenges.</p>
+        <p>Outside of coding, I enjoy [mention a hobby, e.g., hiking, reading, photography]. I believe a balanced life fuels creativity and problem-solving skills.</p>
+    </div>
+
+    <div class="container">
+        <!-- CV Section -->
+        <h2>My Curriculum Vitae</h2>
+        <p>For a detailed overview of my professional experience, skills, and education, please download my CV:</p>
+        <p><a href="your_cv_file.pdf" target="_blank">Download My CV (PDF)</a></p>
+        <p class="text-sm text-gray-500">
+            <em>Remember to replace `your_cv_file.pdf` with the actual path to your CV.</em>
+        </p>
+    </div>
 </body>
 </html>
