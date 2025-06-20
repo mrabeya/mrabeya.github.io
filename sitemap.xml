@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://mrabeya.github.io/</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/index.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/pages/educations.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/pages/publications.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/pages/projects.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/pages/presentations.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/pages/blogs.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/pages/memories.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/assets/documents/maksida_rabeya_CV.pdf</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/pages/course_work.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+<url>
+  <loc>https://mrabeya.github.io/pages/memories-details/mrabeya-infront-of-augusta-university.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/pages/memories-details/mrabeya-leaving-country-for-the-first-time-to-pursue-phd.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mrabeya.github.io/pages/memories-details/mrabeya-speech-masters-farewell-ncit.html</loc>
+  <lastmod>2022-12-28T04:07:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+</urlset>
